@@ -1,0 +1,64 @@
+html, body {
+   margin:0;
+   padding:0;
+   height:100%;
+   min-width: 300px;
+   background: #1F618D;
+}
+#container {
+   padding-top: 42px;
+   padding-bottom: 60px;
+   min-height:100%;
+   position:relative;
+}
+.navitem {
+  padding: 0;  margin-top: 10px;
+  font-size: 120%; font-family:monospace;
+}
+.navbar-brand {
+   font-weight: bold;
+   cursor: pointer;
+}
+#body {
+  padding: 0 3%;
+}
+.books {
+  display: inline-block;
+  margin: 1%;
+  width: 214px;
+  height: 340px;
+  text-align: center;
+  overflow: hidden;
+}
+.cover {
+  max-width: 200px;
+  min-width: 200px;
+  max-height: 300px;
+  min-height: 300px;
+}
+.btn {
+  color: #99A3A4;
+  background: #943126;
+  border-radius: 0;
+  width:200px;
+}
+.btn:active, .btn:focus {
+  outline:0;
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;   
+   height:60px;
+   background:#CCD1D1;
+   text-align: center;
+}
+.fa-facebook-square {
+  color: #1A5276;
+}
+.fa-linkedin-square {
+  color: #2E86C1;
+}
+.fa-github-square {
+  color: #17202A;
+}

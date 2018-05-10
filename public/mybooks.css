@@ -1,0 +1,107 @@
+html, body {
+   margin:0;
+   padding:0;
+   height:100%;
+   min-width: 300px;
+   background: #1F618D;
+}
+#container {
+   padding-top: 42px;
+   padding-bottom: 60px;
+   min-height:100%;
+   position:relative;
+}
+.navitem {
+  padding: 0;  margin-top: 10px;
+  font-size: 120%; font-family:monospace;
+}
+.navbar-brand {
+   font-weight: bold;
+   cursor: pointer;
+}
+#body {
+  padding: 0 3%;
+}
+#addbook {
+  border: 1px solid black;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 60%;
+  font-size: 1.2em;
+  padding-left: 10px;
+  margin-right: 0;
+}
+#addbtn {
+  margin: 0;
+  border: 1px solid black;
+  height: 27px;
+  font-family: monospace;
+  background: #28B463;
+}
+.opts {
+  padding: 1% 1%;
+  margin: 1% 1%;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+.opts:hover {
+  background: rgb(200,200,200);
+}
+.books {
+  display: inline-block;
+  margin: 1%;
+  width: 214px;
+  height: 340px;
+  text-align: center;
+  overflow: hidden;
+}
+.cover {
+  max-width: 200px;
+  min-width: 200px;
+  max-height: 300px;
+  min-height: 300px;
+}
+.rmv {
+  width:200px;
+  background: #CB4335;
+}
+.btn:active, .btn:focus {
+  outline:0;
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;   
+   height:60px;
+   background:#CCD1D1;
+   text-align: center;
+}
+.fa-facebook-square {
+  color: #1A5276;
+}
+.fa-linkedin-square {
+  color: #2E86C1;
+}
+.fa-github-square {
+  color: #17202A;
+}
+.loader {
+  margin: 0 auto;
+  margin-top: 4%;
+  border: 16px solid black;
+  border-radius: 50%;
+  border-top: 16px solid white;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

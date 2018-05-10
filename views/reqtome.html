@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bookiez</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="/reqtome.css" rel="stylesheet" type="text/css">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+  	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div id='container'>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>                        
+		      </button>
+		      <p class="navbar-brand" onclick='window.open("/", "_self")'></i></p>
+		    </div>
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li class="navitem"><a href="/books">All Books</a></li>
+		        <li style="margin:0;" class="dropdown navitem">
+		          <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class='fa fa-user fa-2x'></i><span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="/mybooks">My Books</a></li>
+		            <li><a href="/reqtome">Requests to me</a></li>
+		            <li><a href="/myreq">My Requests</a></li>
+		          </ul>
+		        </li>
+		        <li class="navitem" style="margin:0;"><a onclick="logout()"><i class='fa fa-sign-out fa-2x'></i></a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+		<div id='body'>
+			<h2>Requests to me</h2>
+			<div id='bookholder'>
+				<div class="loader"></div>
+			</div>
+		</div>
+		<div id="footer">
+   			<font face="Abel" size="3"><strong>Developed by Shahed</strong></font><br>
+			<a href="https://www.facebook.com/amshasan.99" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>&nbsp;&nbsp;&nbsp;
+			<a href='https://www.linkedin.com/in/shahedhasan' target="_blank"><i class='fa fa-linkedin-square fa-2x'></i></a>&nbsp;&nbsp;&nbsp;
+			<a href="https://github.com/ams-hasan" target="_blank"><i class='fa fa-github-square fa-2x'></i></a>
+   		</div>
+	</div>
+</body>
+<script type="text/javascript" src="scripts/reqtome.js"></script>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bookiez</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="/signin.css" rel="stylesheet" type="text/css">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+  	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div id='container'>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>                        
+		      </button>
+		      <p onclick='window.open("/", "_self")' class="navbar-brand"><i class="fa fa-home fa-2x"></i></p>
+		    </div>
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li class="navitem"><a href="/signup">Sign up</a></li>
+		        <li class="navitem" style="margin-right:10px;"><a href="/login">Log in</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+		<div id='body' class='container'>
+			<div class='jumbotron signin'>
+				<input type='email' id='email' placeholder="Email ID" required>
+				<input type='password' id='pass' placeholder="Password" required>
+				<input type='submit' class='btn btn-primary' onclick="sendForm()" value='Sign in'>
+			</div>
+		</div>
+		<div id="footer">
+   			<font face="Abel" size="3"><strong>Developed by Shahed</strong></font><br>
+			<a href="https://www.facebook.com/amshasan.99" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>&nbsp;&nbsp;&nbsp;
+			<a href='https://www.linkedin.com/in/shahedhasan' target="_blank"><i class='fa fa-linkedin-square fa-2x'></i></a>&nbsp;&nbsp;&nbsp;
+			<a href="https://github.com/ams-hasan" target="_blank"><i class='fa fa-github-square fa-2x'></i></a>
+   		</div>
+	</div>
+</body>
+<script type="text/javascript" src="scripts/signin.js"></script>
+
+</html>

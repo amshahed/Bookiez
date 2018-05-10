@@ -1,0 +1,28 @@
+{
+  "name": "bookiez",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ams-hasan/Bookiez.git"
+  },
+  "author": "shahed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ams-hasan/Bookiez/issues"
+  },
+  "homepage": "https://github.com/ams-hasan/Bookiez#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "google-books-search": "^0.3.1",
+    "mongodb": "^2.2.33"
+  }
+}
